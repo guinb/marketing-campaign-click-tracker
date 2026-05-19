@@ -1,0 +1,30 @@
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Configurações Locais e Segredos
+.env
+.env.local
+
+# Banco de dados local (Docker volume)
+.docker_data/
+mysql_data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
